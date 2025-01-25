@@ -21,6 +21,11 @@ index.html.save
 info.php
 /home/samuel/.ssh/id_ed25519
 .ssh/id_ed25519
+# Ignore SSH private keys
+.ssh/id_ed25519
+.ssh/id_rsa
 
-.ssh/id_ed25519
-.ssh/id_ed25519
+# Ignore other sensitive files
+config/database.yml
+.env
+
