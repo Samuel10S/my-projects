@@ -1,1 +1,18 @@
-.gitignore
+# Ignore directories
+.cache/
+.config/
+.dotnet/
+.local/
+.pki/
+.ssh/
+.vscode/
+snap/
+
+# Ignore specific files
+.bash_history
+.bash_logout
+.bashrc
+.gitconfig
+.lesshst
+.profile
+.sudo_as_admin_successful
