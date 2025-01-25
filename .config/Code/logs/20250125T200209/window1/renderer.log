@@ -1,0 +1,28 @@
+2025-01-25 20:02:11.185 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-25 20:02:11.185 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-25 20:02:11.185 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-25 20:02:12.013 [info] Started local extension host with pid 3119.
+2025-01-25 20:02:14.095 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-25 20:02:15.520 [info] [perf] Render performance baseline is 34ms
+2025-01-25 21:02:49.794 [error] [13f] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at Phi.create (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at B9e.q [as onModelAdded] (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at As (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:493:96129)
+    at new W4e (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:714:68033)
+    at odt.o (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1586)
+    at odt.createInstance (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1083)
+    at $ce.s (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:714:75657)
+    at vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:714:74240
+    at NodeList.forEach (<anonymous>)
+    at $ce.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:714:73569)
+2025-01-25 21:09:07.287 [error] [141] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at Phi.create (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at B9e.q [as onModelLanguageChanged] (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at new As (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:493:96193)
+    at bOt (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:655:2706)
+    at tle (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:655:1629)
+    at vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:4446
+    at odt.invokeFunction (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:673)
+    at vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:4413
+    at Array.forEach (<anonymous>)
+    at WOe.y (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:3267)

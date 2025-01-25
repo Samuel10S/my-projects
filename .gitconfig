@@ -1,0 +1,7 @@
+[safe]
+	directory = /var/www/html
+[credential]
+	helper = manager
+[user]
+	email = sekerka.samuel10@gmail.com
+	name = Samuel10S

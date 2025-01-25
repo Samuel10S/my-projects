@@ -1,0 +1,14 @@
+2025-01-24 21:12:10.359 ERROR error_observer: Provider StreamProvider<List<Snap>>#756e6(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: dns-failure, message: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)
+2025-01-24 21:12:10.379 ERROR error_observer: Provider StreamProvider<List<Snap>>#7dfd2(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: dns-failure, message: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)
+2025-01-24 21:12:10.379 ERROR error_observer: Provider StreamProvider<List<Snap>>#fab19(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: dns-failure, message: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)
+2025-01-24 21:12:10.379 ERROR error_observer: Provider StreamProvider<List<Snap>>#944d2(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: dns-failure, message: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)
+2025-01-24 21:12:10.379 ERROR error_observer: Provider AutoDisposeFutureProvider<List<Snap>>#ff06c(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: dns-failure, message: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)
+2025-01-24 21:12:10.386 ERROR error_observer: Provider StreamProvider<List<Snap>>#b225f(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: null, message: Get "https://api.snapcraft.io/v2/snaps/info/thunderbird?architecture=amd64&fields=architectures%2Cbase%2Cconfinement%2Clinks%2Ccontact%2Ccreated-at%2Cdescription%2Cdownload%2Cepoch%2Clicense%2Cname%2Cprices%2Cprivate%2Cpublisher%2Crevision%2Csnap-id%2Csummary%2Ctitle%2Ctype%2Cversion%2Cwebsite%2Cstore-url%2Cmedia%2Ccommon-ids%2Ccategories": dial tcp: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)
+2025-01-24 21:12:10.482 ERROR snapd: Caught exception when handling updates for ()
+	SnapdException: SnapdException(kind: null, message: cannot list updates: Post "https://api.snapcraft.io/v2/snaps/refresh": dial tcp: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving)

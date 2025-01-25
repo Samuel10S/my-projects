@@ -1,0 +1,22 @@
+2025-01-25 15:33:25.497891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#cd68d(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:33:25 GMT})
+2025-01-25 15:33:25.513891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#203d6(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:33:25 GMT})
+2025-01-25 15:33:25.519891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#88079(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:33:25 GMT})
+2025-01-25 15:33:25.527891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#1a84d(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:33:25 GMT})
+2025-01-25 15:33:25.531891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#660a1(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: Internal server error, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, date: Sat, 25 Jan 2025 14:33:25 GMT, server: Caddy, content-length: 0})
+2025-01-25 15:33:25.538891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#541b2(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: Internal server error, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, date: Sat, 25 Jan 2025 14:33:25 GMT, server: Caddy, content-length: 0})
+2025-01-25 15:33:25.545891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#9aa08(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:33:25 GMT})
+2025-01-25 15:33:25.546891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#2391e(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: Internal server error, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, date: Sat, 25 Jan 2025 14:33:25 GMT, server: Caddy, content-length: 0})
+2025-01-25 15:33:25.548891 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#1364f(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:33:25 GMT})
+2025-01-25 15:34:15.207521 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#980a9(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:34:15 GMT})
+2025-01-25 15:34:21.885473 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#17351(null) failed
+	GrpcError: gRPC Error (code: 2, codeName: UNKNOWN, message: HTTP connection completed with 502 instead of 200, details: [], rawResponse: null, trailers: {alt-svc: h3=":443"; ma=2592000, server: Caddy, content-length: 0, date: Sat, 25 Jan 2025 14:34:21 GMT})

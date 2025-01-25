@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="thunderbird_thunderbird.desktop" score="1" last-seen="1737835454"/>
+    <application id="libreoffice-startcenter.desktop" score="0" last-seen="1737820958"/>
+    <application id="org.gnome.Nautilus.desktop" score="44" last-seen="1737835531"/>
+    <application id="org.gnome.Totem.desktop" score="0" last-seen="1737752614"/>
+    <application id="firefox_firefox.desktop" score="1065" last-seen="1737835533"/>
+    <application id="org.gnome.Terminal.desktop" score="492" last-seen="1737835534"/>
+    <application id="libreoffice-writer.desktop" score="2" last-seen="1737821502"/>
+    <application id="snap-store_snap-store.desktop" score="11" last-seen="1737815706"/>
+    <application id="code_code.desktop" score="588" last-seen="1737835550"/>
+    <application id="org.gnome.TextEditor.desktop" score="2" last-seen="1737835526"/>
+    <application id="update-manager.desktop" score="22" last-seen="1737750870"/>
+  </context>
+</application-state>

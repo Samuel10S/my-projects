@@ -1,0 +1,42 @@
+2025-01-25 17:12:02.791 [info] Extension host with pid 13189 started
+2025-01-25 17:12:03.631 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-25 17:12:03.888 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-25 17:12:03.920 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-25 17:12:04.063 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-25 17:12:04.533 [info] Eager extensions activated
+2025-01-25 17:12:04.672 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-25 17:12:04.677 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-25 17:12:04.702 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-25 17:12:06.172 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-25 17:12:06.901 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-25 17:12:06.925 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at V0.loadCertificates (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:54217)
+    at Object.loadAdditionalCertificates (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:18326)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:697:53
+    at Generator.next (<anonymous>)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:696:43
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:698:16
+    at Generator.next (<anonymous>)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+    at getOrLoadAdditionalCertificates (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:694:12)
+    at addCertificatesToOptionsV1 (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:673:9)
+    at resolveProxyWithRequest (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:114:9)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:77
+    at new Promise (<anonymous>)
+    at PacProxyAgent.resolveP (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:54)
+    at PacProxyAgent.<anonymous> (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:74:37)
+    at Generator.next (<anonymous>)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+    at PacProxyAgent.connect (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:56:16)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/agent-base/dist/index.js:132:30
+2025-01-25 17:12:06.929 [info] Extension host with pid 13189 exiting with code 0
