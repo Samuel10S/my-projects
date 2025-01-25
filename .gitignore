@@ -16,11 +16,14 @@ snap/
 .lesshst
 .profile
 .sudo_as_admin_successful
-# Ignore index.html.save and info.php
+
+# Ignore specific backup and log files
 index.html.save
 info.php
-/home/samuel/.ssh/id_ed25519
-.ssh/id_ed25519
+.selected_editor
+backup/*.tar.gz
+backup_error.log
+
 # Ignore SSH private keys
 .ssh/id_ed25519
 .ssh/id_rsa
@@ -28,6 +31,30 @@ info.php
 # Ignore other sensitive files
 config/database.yml
 .env
-.selected_editor
-backup/*.tar.gz
-backup_error.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules directory (if using Node.js)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.o
+*.out
+*.class
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore IDE-specific files
+.idea/
+.sass-cache/
