@@ -28,4 +28,6 @@ info.php
 # Ignore other sensitive files
 config/database.yml
 .env
-
+.selected_editor
+backup/*.tar.gz
+backup_error.log
