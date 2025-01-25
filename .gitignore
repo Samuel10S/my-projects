@@ -16,3 +16,8 @@ snap/
 .lesshst
 .profile
 .sudo_as_admin_successful
+# Ignore index.html.save and info.php
+index.html.save
+info.php
+/home/samuel/.ssh/id_ed25519
+
