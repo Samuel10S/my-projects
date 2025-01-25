@@ -37,3 +37,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+# Run the cleanup script every day at midnight
+0 0 * * * /home/samuel/cleanup_old_files.sh
+
+# Run the backup script every day at 1 AM
+0 1 * * * /home/samuel/backup_ssh.sh
