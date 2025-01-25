@@ -26,3 +26,14 @@
     at vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:4413
     at Array.forEach (<anonymous>)
     at WOe.y (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:3267)
+2025-01-25 21:14:05.121 [error] [13f] potential listener LEAK detected, having 191 listeners already. MOST frequent listener (16):: Error
+    at Phi.create (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at B9e.q [as onModelAdded] (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at lu.u (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:491:29614)
+    at new lu (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:491:29308)
+    at odt.o (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1586)
+    at odt.createInstance (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1083)
+    at new WOe (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:3110)
+    at odt.o (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1586)
+    at odt.createInstance (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1083)
+    at Yce.mb (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:729:14501)
